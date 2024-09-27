@@ -7,12 +7,14 @@
 
 import SwiftUI
 
+//третий коммит
+
 struct ContentView: View {
-    
+        
     @State private var showLogin = false
         var body: some View {
             VStack {
-                Text("Welcome!!!")
+                Text("Welcome!!!рефакторинг")
                     .font(.title)
     
                 Spacer().frame(height: 20)

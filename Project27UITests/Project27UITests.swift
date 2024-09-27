@@ -27,7 +27,7 @@ final class Project27UITests: XCTestCase {
         let welcome = app.staticTexts.element
         
         XCTAssert(welcome.exists)
-        XCTAssertEqual(welcome.label, "Welcome!!!")
+        XCTAssertEqual(welcome.label, "Welcome!!!рефакторинг")
     }
     
     func testLoginButton() throws {
